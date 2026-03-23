@@ -3,17 +3,18 @@ mkdir -p src
 mkdir -p research
 
 
+
 # creating files
 
-touch src/components.py
-touch src/utils.py
-touch src/config.py
-touch src/pipeline.py
-touch src/entity.py
-touch src/constants.py
-touch src/helper.py
+touch src/components/__init__.py
+touch src/utils/__init__.py
+touch src/config/__init__.py
+touch src/pipeline/__init__.py
+touch src/entity/__init__.py
+touch src/constants/__init__.py
 touch src/__init__.py
 touch .env
+touch src/config/config.yaml
 touch dvc.yaml
 touch setup.py
 touch research/trials.ipynb
